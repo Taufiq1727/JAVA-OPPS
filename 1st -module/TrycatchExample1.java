@@ -1,7 +1,7 @@
 public class TrycatchExample1 {
     public static void main(String[] args){
         try{
-            int data = 100/0;
+            System.out.println(100 / 0);
 
         }
         catch(ArithmeticException e){
